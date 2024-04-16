@@ -5,7 +5,7 @@ function LoginPage(){
     
     return(
     <div className="flex justify-evenly items-center h-screen">
-        <div className="relative w-80 h-[476px]">
+        <div className="relative w-80 h-[476px] sm:block hidden ">
             <img src={image1} width={"220px"} className="absolute left-28 top-0" alt="images" />
             <img src={image2} width={"220px"} className="absolute left-28 top-0" alt="images" />
             <img src={image3} width={"220px"} className="absolute left-52 top-0" alt="images" />
@@ -15,12 +15,12 @@ function LoginPage(){
             <form 
             className="flex flex-col items-center justify-center"
             >
-                <input type="text" 
+                <input type="email" 
                 placeholder="Phone number, username, or email"
                 className="w-64 rounded bg-[#FAFAFA] border-[1px] border-solid pl-2 pt-[9px] pb-[7px] text-sm mb-4"
                 />
                 
-                <input type="text" 
+                <input type="password" 
                 placeholder="Password"
                 className="w-64 rounded border-[1px] border-solid pl-2 pt-[9px] pb-[7px] text-sm mb-4"
                 />

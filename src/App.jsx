@@ -1,13 +1,17 @@
 console.log("Jay Shri Ram")
 import { useState } from 'react'
 import LoginPage from './pages/LoginPage'
-// import './App.css'
+import SingupPage from './pages/SingupPage'
+import HomePage from './pages/HomePage'
+import './App.css'
 
 function App() {
 
   return (
     <>
-    <LoginPage />
+    <HomePage />
+    {/* <LoginPage /> */}
+    {/* <SingupPage /> */}
     </>
   )
 }
